@@ -2,4 +2,12 @@
     text-align: center;
     background: #293241;
     padding: 100px;
+
+    @media only screen and (max-width: 600px) {
+        padding: 10px;
+      }
+
+    &__logo {
+        max-width: 90%;
+    }
 }
