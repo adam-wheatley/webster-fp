@@ -1,13 +1,27 @@
 .header {
     text-align: center;
-    background: #293241;
-    padding: 100px;
+    background: #C50025;
+    font-family: Peace;
+    color: #FFF;
+    padding: 50px 0;
 
-    @media only screen and (max-width: 600px) {
-        padding: 10px;
-      }
+    & > h1 {
+        font-size: 8vw;
 
-    &__logo {
-        max-width: 90%;
+        @media only screen and (max-width: 600px) {
+           font-size: 15vw;
+        }
+    }
+
+    & > h2 {
+        color: orange;
+        margin-top: -25px;
+        font-size: 4vw;
+
+        @media only screen and (max-width: 600px) {
+            font-size: 7vw;
+            margin-top: -15px;
+        }
+
     }
 }
